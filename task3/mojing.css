@@ -1,9 +1,11 @@
-html,body{
-    background-color: #68cdd5;
+html{
     font-size:62.5%;
-    width:100%;
+    max-width: 640px;
     height:100%;
     margin:0 auto;
+}
+.mojing{
+    background-color: #68cdd5;
 }
 .back>img{
     width:9%;
@@ -16,15 +18,16 @@ html,body{
     margin-top:6.5%;
 }
 .logo>img{
-    width:40%;
+    width:29%;
     display: block;
     margin:0 auto;
 }
 .main{
-    width:70%;
+    width:72%;
     font: 3rem "Microsoft YaHei" ;
     color: white;
-    text-align: left;
+    text-align:left;
+    line-height:1.8;
     margin:13% auto;
 }
 .footer{
@@ -41,7 +44,7 @@ html,body{
     margin:17% 0;
 }
 .footer img{
-    width:38%;
+    width:33%;
     display: block;
     margin:0 auto;
 }
