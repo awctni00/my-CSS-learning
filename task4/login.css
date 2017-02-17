@@ -39,6 +39,7 @@ body{
     background-color: white;
 }
 input{
+    outline:none;
     border:none;
     border-left:0.1rem solid  #eff0f4;
     font-size: 3.2rem;
@@ -52,10 +53,12 @@ button{
     background-color:#5fc0cd;
     color: white;
     width: 100%;
+    outline:none;
+    border:none;
     font-size: 3.6rem;
     text-align: center;
     margin-top:7rem;
-    padding: 3.2rem 32rem;
+    padding: 3.2rem 44%;
 }
 .footer{
     font-size:3.2rem;
